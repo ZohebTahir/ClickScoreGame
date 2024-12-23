@@ -8,7 +8,7 @@ let timerSum = 5;
 let highscoreSum = 0; 
 let scoreSum = 0; 
 
-// 1.) Game start -- 
+// 1.) Game start/ Timer Function 
 startBtn.addEventListener("click", () => {
     setInterval(gameStart, 1000)
 })
@@ -26,18 +26,36 @@ pointsBtn.addEventListener("click", () => {
     if (timerSum < 5 && timerSum > 0.1) {
         scoreSum++;
         scoreNum.innerText = scoreSum;
+        if (scoreSum > highscoreSum) {
+            highscoreSum = scoreSum; 
+            highscoreNum.innerText = highscoreSum;
+        }
     }
 })
 
 
-// 3.) Retry Button
+//3.) Retry btn
+retryBtn.addEventListener("click", () => {
+    timerSum = 5; 
+    scoreSum = 0; 
+    timer.innerHTML = timerSum;
+    scoreNum.innerText = scoreSum;
+})
+
+//4.) Btn text swap 
+
+
+
+
+// 3.) Highscore 
+    // if (scoreSum > highscoreSum) {
+    //     highscoreSum = scoreSum; 
+    // }
 
 
 
 
 
-
-// 4.) High score set --
 
 // Points btn de-activate --
 // function clickDisable () {
