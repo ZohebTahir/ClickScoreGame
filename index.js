@@ -37,6 +37,7 @@ pointsBtn.addEventListener("click", () => {
 
 
 
+// 4.) High score set --
 
 // Points btn de-activate --
 // function clickDisable () {
@@ -44,5 +45,3 @@ pointsBtn.addEventListener("click", () => {
 //         pointsBtn.disabled = true;
 //     }
 // }
-
-// High score set --
