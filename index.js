@@ -21,7 +21,7 @@ function gameStart() {
     }
 }
 
-// 2.) Points btn
+// 2.) Points btn & Update persistent highscore
 pointsBtn.addEventListener("click", () => {
     if (timerSum < 5 && timerSum > 0.1) {
         scoreSum++;
@@ -34,16 +34,13 @@ pointsBtn.addEventListener("click", () => {
 })
 
 
-//3.) Retry btn
+//3.) Try again btn
 retryBtn.addEventListener("click", () => {
     timerSum = 5; 
     scoreSum = 0; 
     timer.innerHTML = timerSum;
     scoreNum.innerText = scoreSum;
 })
-
-//4.) Btn text swap 
-
 
 
 
