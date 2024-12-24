@@ -1,17 +1,86 @@
+html {
+    background-color: #2E4053;  
+    color: white;
+}
+
 h1 {
+    font-family: sans-serif;
     text-align: center; 
 }
 
 main {
+    font-family: sans-serif;
     display: flex;
     flex-direction: column; 
-    align-items: center
+    align-items: center;
+    justify-content: space-around;
 }
 
 p {
     text-align: center; 
 }
 
+h2 {
+    text-align: center;
+}
+
+.timer {
+    font-size: 25px;
+    color: #E74C3C;
+}
+
+.timerNum {
+    color: #E74C3C;
+}
+
 .gamebtns {
-    text-align: center
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.pointsBtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #cfcf06;
+    background-color: #e6ed09;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.startBtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #59a607;
+    background-color: #7be609;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.retryBtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #e6b209;
+    background-color: #dba804;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+
+.gamebtns:hover {
+    background-color: yellow;
+}
+
+html {
+    font-size: 150%;
+    box-sizing: border-box;
 }
