@@ -6,7 +6,7 @@ const scoreNum = document.querySelector(".scoreNum");
 const pointsBtn = document.querySelector(".pointsBtn");
 const startBtn = document.querySelector(".startBtn");
 const retryBtn = document.querySelector(".retryBtn");
-let timerSum = 15; 
+let timerSum = 10; 
 let highscoreSum = 0; 
 let scoreSum = 0; 
 
@@ -25,7 +25,7 @@ function gameStart() {
 
 // 2.) Points btn & Update persistent highscore
 pointsBtn.addEventListener("click", () => {
-    if (timerSum < 15 && timerSum > 0.1) {
+    if (timerSum < 10 && timerSum > 0.1) {
         scoreSum++;
         scoreNum.innerText = scoreSum;
         if (scoreSum > highscoreSum) {
@@ -38,7 +38,7 @@ pointsBtn.addEventListener("click", () => {
 
 //3.) Try again btn
 retryBtn.addEventListener("click", () => {
-    timerSum = 15; 
+    timerSum = 10; 
     scoreSum = 0; 
     timer.innerHTML = timerSum;
     scoreNum.innerText = scoreSum;
