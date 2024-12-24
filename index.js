@@ -46,7 +46,7 @@ retryBtn.addEventListener("click", () => {
 
 
 
-// 3.) Highscore 
+// 3.) Highscore --
     // if (scoreSum > highscoreSum) {
     //     highscoreSum = scoreSum; 
     // }
