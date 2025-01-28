@@ -1,7 +1,7 @@
 Title: Click Game
 
 Overview: 
-- This game is a solo project.
+- This game is a solo game project.
 - The intention of this project is to display event handling in a fun and gamified interactive experience. 
 
 Features: 
