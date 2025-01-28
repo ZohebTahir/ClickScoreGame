@@ -1,8 +1,8 @@
 Title: Click Game
 
 Overview: 
-- This game is a solo project (Tier 1) for Chingu.
-- The intention of this project is to meet the requirements of the Tier 1 Chingu solo project in a fun and gamified interactive experience. 
+- This game is a solo project.
+- The intention of this project is to display event handling in a fun and gamified interactive experience. 
 
 Features: 
 - A start game button that initilaizes game function and de-activates after the initial game start.
